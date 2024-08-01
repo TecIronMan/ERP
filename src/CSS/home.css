@@ -1,0 +1,35 @@
+
+
+.container {
+    display: flex;
+    margin-top: 17%;
+    margin-left: 10%;
+    width: 20%;
+}
+
+
+
+img{
+width: 50%;
+margin-top: 10%;
+}
+
+.animated-text {
+    font-size: 3rem;
+    text-align: left;
+    color: black; /* Ensure text is visible */
+}
+
+.line {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
